@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>gamez85</title>
+<meta name="description" content="Small, quick arcade games by gamez85." />
+<link rel="icon" type="image/png" href="simple-shooter/icon.png" />
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff; --text: #1d2230; --dim: #5d6577; --line: #e3e6ee; --accent: #0a84b8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d0f16; --text: #dfe4ef; --dim: #8b93a7; --line: #232838; --accent: #6fd9ff; }
+  }
+  body {
+    margin: 0 auto; padding: 32px 16px 48px; max-width: 720px;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text);
+  }
+  a { color: var(--accent); }
+  h1 { font-size: 2rem; margin: 0; letter-spacing: 0.02em; }
+  h2 { font-size: 1.15rem; margin: 0 0 0.2rem; }
+  .meta { color: var(--dim); margin: 0.2rem 0 0; }
+  .game {
+    display: flex; gap: 20px; align-items: flex-start;
+    margin: 32px 0; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  }
+  .game img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  .game p { margin: 0.4rem 0 0; }
+  @media (max-width: 420px) { .game { flex-direction: column; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>gamez85</h1>
+  <p class="meta">Small, quick arcade games.</p>
+</header>
+
+<section class="game">
+  <img src="simple-shooter/icon.png" alt="Simple Shooter icon" />
+  <div>
+    <h2>Simple Shooter</h2>
+    <p>One-thumb neon arena shooter. You steer, it fires. The swarm gets smarter.</p>
+    <p class="meta">Coming soon to Google Play.</p>
+    <p><a href="simple-shooter/privacy-policy.html">Privacy Policy</a> ·
+      <a href="simple-shooter/terms-of-service.html">Terms of Service</a></p>
+  </div>
+</section>
+
+<h2>Contact</h2>
+<p><a href="mailto:tonyandroid85@gmail.com">tonyandroid85@gmail.com</a></p>
+</body>
+</html>
